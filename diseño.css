@@ -90,3 +90,85 @@ button:hover {
     color: #e74c3c;
     font-weight: bold;
 }
+/* Estilos para el contenedor principal del ejercicio 2 */
+.cuerpo-ejercicio {
+    background-color: #e9f0f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor-voto {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.titulo-voto {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.pregunta-voto {
+    text-align: left;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.select-personalizado {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d9e0;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.boton-votar {
+    width: 100%;
+    padding: 15px;
+    background-color: #2ecc71; /* Verde esmeralda */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+}
+
+.boton-votar:hover {
+    background-color: #27ae60;
+}
+
+.cuadro-resultado {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #d1f2eb; /* Azul claro verdoso */
+    border: 1px solid #a3e4d7;
+    border-radius: 10px;
+    color: #117a65;
+    font-weight: 500;
+}
+
+.regreso {
+    margin-top: 20px;
+}
+
+.regreso a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
